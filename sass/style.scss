@@ -1,0 +1,15 @@
+@import "pages/home";
+@import "base/reset";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+// Components (layouts)
+@import "components/nav";
+@import "components/header";
+@import "components/code-editor";
+@import "components/footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
