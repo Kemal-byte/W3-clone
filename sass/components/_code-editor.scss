@@ -1,4 +1,38 @@
 .code-editor {
-  height: 750px;
-  background-color: $dark;
+  padding: 1.875rem 0.188rem 5.313rem 0.188rem;
+  color: $white;
+}
+.code-editor-header {
+  font-size: 4.063rem;
+  font-weight: bold;
+}
+.code-editor-sub-header {
+  margin-top: 1.563rem;
+}
+.gif-row {
+  background: #f1f1f1;
+  padding: 0.625rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.gif-row-el1 {
+  width: 24%;
+  float: left;
+}
+.red {
+  background-color: $btn-red;
+}
+.yellow {
+  background-color: $btn-yellow;
+}
+.green {
+  background-color: $btn-green;
+}
+.gif-dot {
+  margin-top: 5px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
 }

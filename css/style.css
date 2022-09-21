@@ -26,6 +26,26 @@ li {
   border: 1px solid black;
 }
 
+h4 {
+  margin: 10px 0;
+}
+
+.bg-lgt-blue {
+  background-color: #96d4d4;
+}
+
+.bg-beige {
+  background-color: #fff4a3;
+}
+
+.bg-dark {
+  background-color: #282a35;
+}
+
+.bg-grey {
+  background-color: #f3ecea;
+}
+
 nav {
   padding: 0.6em 1em;
   background-color: white;
@@ -44,8 +64,50 @@ header {
 }
 
 .code-editor {
-  height: 750px;
-  background-color: #282a35;
+  padding: 1.875rem 0.188rem 5.313rem 0.188rem;
+  color: #ffffff;
+}
+
+.code-editor-header {
+  font-size: 4.063rem;
+  font-weight: bold;
+}
+
+.code-editor-sub-header {
+  margin-top: 1.563rem;
+}
+
+.gif-row {
+  background: #f1f1f1;
+  padding: 0.625rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.gif-row-el1 {
+  width: 24%;
+  float: left;
+}
+
+.red {
+  background-color: #ed594a;
+}
+
+.yellow {
+  background-color: #fdd800;
+}
+
+.green {
+  background-color: #5ac05a;
+}
+
+.gif-dot {
+  margin-top: 5px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
 }
 
 .text-center {
@@ -61,32 +123,32 @@ header {
   border: 1px solid black;
 }
 
+h4 {
+  margin: 10px 0;
+}
+
+.bg-lgt-blue {
+  background-color: #96d4d4;
+}
+
+.bg-beige {
+  background-color: #fff4a3;
+}
+
+.bg-dark {
+  background-color: #282a35;
+}
+
+.bg-grey {
+  background-color: #f3ecea;
+}
+
 .svg-container {
   position: relative;
 }
 
 .main-item {
   padding: 2rem 0;
-}
-
-.HTML {
-  background-color: #96d4d4;
-}
-
-.CSS {
-  background-color: #fff4a3;
-}
-
-.javascript {
-  background-color: #282a35;
-}
-
-.python {
-  background-color: #f3ecea;
-}
-
-.SQL {
-  background-color: #96d4d4;
 }
 
 h1 {
@@ -155,6 +217,32 @@ p {
 
 .box-wrapper-boot {
   background-color: #e7e9eb;
+}
+
+.bg-btn {
+  background-color: #282a35 !important;
+  padding-bottom: 4rem;
+}
+
+.bg-btn-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2% 3%;
+}
+
+.bg-btn-wrapper-item {
+  padding: 2.25rem 1.5rem;
+  height: auto;
+  width: 99%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.bg-btn-header {
+  color: #282a35;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin: 10px 0;
 }
 
 body {

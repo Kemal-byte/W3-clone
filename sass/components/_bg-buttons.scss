@@ -1,0 +1,23 @@
+.bg-btn {
+  background-color: $dark !important;
+  padding-bottom: 4rem;
+}
+.bg-btn-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2% 3%;
+}
+.bg-btn-wrapper-item {
+  padding: 2.25rem 1.5rem;
+  height: auto;
+  width: 99%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.bg-btn-header {
+  color: $dark;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin: 10px 0;
+  //   padding: 2.25rem 1.5rem;
+}
