@@ -1,0 +1,16 @@
+@import "../abstracts/variables";
+@import "common_class";
+
+nav {
+  padding: 0.6em 1em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  gap: 1em;
+}
+.right {
+  //   justify-items: flex-end;
+}

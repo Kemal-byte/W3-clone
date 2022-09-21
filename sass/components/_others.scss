@@ -1,0 +1,34 @@
+@import "../abstracts/variables";
+.others {
+  background-color: $dark;
+}
+
+.box {
+  padding: 2% 3%;
+}
+.box-wrapper {
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+.box-header {
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+.box-desc {
+  height: 4.375rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0.625em 0;
+}
+.box-wrapper-PHP {
+  background-color: $pink;
+}
+.box-wrapper-JQuery {
+  background-color: $beige;
+}
+.box-wrapper-Java {
+  background-color: $light-grey;
+}
+.box-wrapper-C {
+  background-color: $light-blue;
+}

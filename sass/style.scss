@@ -7,9 +7,13 @@
 @import "components/header";
 @import "components/code-editor";
 @import "components/footer";
+@import "components/common_class";
+@import "components/main";
+@import "components/others";
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
 }
