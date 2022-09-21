@@ -109,6 +109,7 @@ p {
 
 .others {
   background-color: #282a35;
+  padding: 4rem 0;
 }
 
 .box {
@@ -122,7 +123,7 @@ p {
 
 .box-header {
   font-size: 2.813rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .box-desc {
@@ -145,7 +146,15 @@ p {
 }
 
 .box-wrapper-C {
+  background-color: #d9eee1;
+}
+
+.box-wrapper-W3 {
   background-color: #96d4d4;
+}
+
+.box-wrapper-boot {
+  background-color: #e7e9eb;
 }
 
 body {

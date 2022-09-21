@@ -1,6 +1,7 @@
 @import "../abstracts/variables";
 .others {
   background-color: $dark;
+  padding: 4rem 0;
 }
 
 .box {
@@ -12,7 +13,7 @@
 }
 .box-header {
   font-size: 2.813rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 .box-desc {
   height: 4.375rem;
@@ -30,5 +31,11 @@
   background-color: $light-grey;
 }
 .box-wrapper-C {
+  background-color: $olive;
+}
+.box-wrapper-W3 {
   background-color: $light-blue;
+}
+.box-wrapper-boot {
+  background-color: $silver;
 }
