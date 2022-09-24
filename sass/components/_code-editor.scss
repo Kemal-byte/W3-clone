@@ -14,10 +14,18 @@
   padding: 0.625rem;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
 }
 .gif-row-el1 {
   width: 24%;
-  float: left;
+  display: block;
+}
+.gif-row-el2 {
+  width: 73%;
+  display: flex;
+  justify-items: flex-start;
 }
 .red {
   background-color: $btn-red;
@@ -35,4 +43,33 @@
   border-radius: 50%;
   display: inline-block;
   margin-left: 3px;
+}
+.gif-url {
+  border-style: none;
+}
+.gif-switch {
+  background-color: #f1f1f1;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.switch-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: 400;
+}
+#frontend img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.container-editor {
+  padding: 0.5rem 1rem;
+}
+.code-btn {
+  display: flex;
+  color: black;
+  flex-direction: column;
 }

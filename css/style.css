@@ -26,6 +26,18 @@ li {
   border: 1px solid black;
 }
 
+.btn-code-editor {
+  display: block;
+  border-radius: 4px;
+  text-align: left;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  display: inline-block;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
 h4 {
   margin: 10px 0;
 }
@@ -44,6 +56,10 @@ h4 {
 
 .bg-grey {
   background-color: #f3ecea;
+}
+
+.bg-green {
+  background-color: #04aa6d;
 }
 
 nav {
@@ -82,11 +98,20 @@ header {
   padding: 0.625rem;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
 }
 
 .gif-row-el1 {
   width: 24%;
-  float: left;
+  display: block;
+}
+
+.gif-row-el2 {
+  width: 73%;
+  display: flex;
+  justify-items: flex-start;
 }
 
 .red {
@@ -110,6 +135,41 @@ header {
   margin-left: 3px;
 }
 
+.gif-url {
+  border-style: none;
+}
+
+.gif-switch {
+  background-color: #f1f1f1;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.switch-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: 400;
+}
+
+#frontend img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.container-editor {
+  padding: 0.5rem 1rem;
+}
+
+.code-btn {
+  display: flex;
+  color: black;
+  flex-direction: column;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -121,6 +181,18 @@ header {
   max-width: 200px;
   border-radius: 100px;
   border: 1px solid black;
+}
+
+.btn-code-editor {
+  display: block;
+  border-radius: 4px;
+  text-align: left;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  display: inline-block;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
 h4 {
@@ -141,6 +213,10 @@ h4 {
 
 .bg-grey {
   background-color: #f3ecea;
+}
+
+.bg-green {
+  background-color: #04aa6d;
 }
 
 .svg-container {
@@ -243,6 +319,17 @@ p {
   font-size: 1.875rem;
   font-weight: 600;
   margin: 10px 0;
+}
+
+.school-space {
+  background: #282a35 url(https://www.w3schools.com/spaces/files/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg) no-repeat fixed center;
+}
+
+.school-space-container {
+  background-color: #282a35;
+  opacity: 0.96;
+  margin: auto;
+  padding: 5.313rem 1.25rem;
 }
 
 body {

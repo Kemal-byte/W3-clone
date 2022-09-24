@@ -9,6 +9,17 @@
   border-radius: 100px;
   border: 1px solid black;
 }
+.btn-code-editor {
+  display: block;
+  border-radius: 4px;
+  text-align: left;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  display: inline-block;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
 h4 {
   margin: 10px 0;
 }
@@ -23,4 +34,7 @@ h4 {
 }
 .bg-grey {
   background-color: $light-grey;
+}
+.bg-green {
+  background-color: $green;
 }
