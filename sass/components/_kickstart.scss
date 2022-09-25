@@ -1,0 +1,23 @@
+.kickstart {
+  background: $dark;
+  padding: 0 60px 50px 60px;
+  color: $pink;
+}
+
+#kickstart-dip h2 {
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 55px;
+}
+#kickstart-dip h3 {
+  margin: 10px auto;
+  font-size: 40px;
+}
+#kickstart-dip p {
+  width: 100%;
+}
+#kickstart-dip p a {
+  width: 100% !important;
+  margin: 16px auto !important;
+}

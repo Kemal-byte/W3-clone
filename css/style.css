@@ -406,6 +406,33 @@ p {
   border-radius: 100px;
 }
 
+.kickstart {
+  background: #282a35;
+  padding: 0 60px 50px 60px;
+  color: #ffc0c7;
+}
+
+#kickstart-dip h2 {
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 55px;
+}
+
+#kickstart-dip h3 {
+  margin: 10px auto;
+  font-size: 40px;
+}
+
+#kickstart-dip p {
+  width: 100%;
+}
+
+#kickstart-dip p a {
+  width: 100% !important;
+  margin: 16px auto !important;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.5;
