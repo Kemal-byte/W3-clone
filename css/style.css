@@ -433,6 +433,58 @@ p {
   margin: 16px auto !important;
 }
 
+.howTo {
+  padding: 85px 24px 90px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#howToId h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#howToId h4 {
+  font-size: 20px;
+}
+
+#howToId h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.slide-box {
+  background-color: #e7e9eb;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.slides img {
+  width: 100% !important;
+}
+
+.next {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(40, 42, 53, 0.9);
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.5;

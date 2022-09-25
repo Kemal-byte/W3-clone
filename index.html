@@ -358,7 +358,51 @@
       </p>
     </section>
 
-    <section class="howTo"></section>
+    <section id="howToId" class="howTo text-center">
+      <h2>How To Section</h2>
+      <h4>Code snipperts for HTML, CSS and JavaScript</h4>
+      <h6>For example, how to create a slideshow:</h6>
+      <div class="code-editor-gif-container">
+        <div class="gif-row">
+          <div class="gif-row-el1">
+            <span class="red gif-dot"></span>
+            <span class="yellow gif-dot"></span>
+            <span class="green gif-dot"></span>
+          </div>
+          <div class="gif-row-el2">
+            <div class="gif-url">
+              <input type="text" value="www.w3schools.com/howto/" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="slide-box">
+          <div class="slides fade" style="display: none">
+            <img
+              src="https://www.w3schools.com/howto/img_nature_wide.jpg"
+              alt="img1"
+            />
+          </div>
+          <div class="slides fade" style="display: none">
+            <img
+              src="https://www.w3schools.com/howto/img_snow_wide.jpg"
+              alt="img2"
+            />
+          </div>
+          <div class="slides fade" style="display: none">
+            <img
+              src="https://www.w3schools.com/howto/img_mountains_wide.jpg"
+              alt="img3"
+            />
+          </div>
+          <a id="next" class="next" onclick="nextSlide(1)">❯</a>
+          <div class="text-center">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer></footer>
     <script src="./js/app.js"></script>
   </body>
