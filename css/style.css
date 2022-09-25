@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +61,10 @@ h4 {
 
 .bg-green {
   background-color: #04aa6d;
+}
+
+.bg-silver {
+  background-color: #e7e9eb;
 }
 
 nav {
@@ -219,6 +224,10 @@ h4 {
   background-color: #04aa6d;
 }
 
+.bg-silver {
+  background-color: #e7e9eb;
+}
+
 .svg-container {
   position: relative;
 }
@@ -330,6 +339,71 @@ p {
   opacity: 0.96;
   margin: auto;
   padding: 5.313rem 1.25rem;
+}
+
+.colorPicker {
+  padding-top: 78px;
+  padding-bottom: 95px;
+  background-color: #e7e9eb;
+}
+
+.codeGame {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #96d4d4;
+}
+
+.codeGame h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.codeGame button {
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.codeGame img {
+  margin: 10px auto;
+}
+
+.code-game-h2 {
+  margin: 10px auto;
+}
+
+.exercises {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  color: #ffffff;
+}
+
+#bgImg {
+  background: #272934 url(https://www.w3schools.com/about/w3codes.png) no-repeat fixed center;
+}
+
+.rectangle {
+  padding: 70px 50px;
+  font-size: 35px;
+  width: 87%;
+  opacity: 0.97;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-weight: 700;
+}
+
+.webTemplates {
+  padding: 64px 24px 90px 24px;
+}
+
+.web-img {
+  margin: 20px auto;
+}
+
+.webTemp-btn {
+  margin: 8px auto;
+  padding: 8px auto;
+  display: block;
+  border-radius: 100px;
 }
 
 body {

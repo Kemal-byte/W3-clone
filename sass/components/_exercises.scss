@@ -1,0 +1,18 @@
+.exercises {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  color: $white;
+}
+#bgImg {
+  background: hsl(231, 14%, 18%)
+    url(https://www.w3schools.com/about/w3codes.png) no-repeat fixed center;
+}
+.rectangle {
+  padding: 70px 50px;
+  font-size: 35px;
+  width: 87%;
+  opacity: 0.97;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-weight: 700;
+}
