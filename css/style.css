@@ -24,7 +24,7 @@ li {
   margin: 1rem auto;
   max-width: 200px;
   border-radius: 100px;
-  border: 1px solid black;
+  font-weight: 500;
 }
 
 .btn-code-editor {
@@ -53,6 +53,7 @@ h4 {
 
 .bg-dark {
   background-color: #282a35;
+  color: #ffffff;
 }
 
 .bg-grey {
@@ -61,10 +62,20 @@ h4 {
 
 .bg-green {
   background-color: #04aa6d;
+  color: white;
 }
 
 .bg-silver {
   background-color: #e7e9eb;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-pink {
+  background-color: #ffc0c7;
+  color: #282a35;
 }
 
 nav {
@@ -82,6 +93,41 @@ nav {
 header {
   background-color: #282a35;
   color: #ffffff;
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+header h1 {
+  font-size: 50px;
+}
+header h3 {
+  font-size: 21px;
+  color: #ffc0c7;
+}
+
+header form input {
+  padding: 10px 10px 10px 16px;
+  border: none;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #282a35;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+header form p {
+  border-radius: 25px;
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  position: relative;
+  left: -5px;
+  border: 1px solid #282a35;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .code-editor {
@@ -175,6 +221,33 @@ header {
   flex-direction: column;
 }
 
+footer {
+  padding: 32px 16px;
+}
+
+.part1 {
+  padding: 0.01em 16px;
+}
+
+.part1-btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ftr-btn {
+  font-weight: 500;
+  background-color: #ffffff;
+  padding: 8px 16px;
+  color: #282a35;
+  margin: 0 0 16px;
+  border-radius: 5px;
+}
+
+.btn-inline {
+  display: inline-block;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -185,7 +258,7 @@ header {
   margin: 1rem auto;
   max-width: 200px;
   border-radius: 100px;
-  border: 1px solid black;
+  font-weight: 500;
 }
 
 .btn-code-editor {
@@ -214,6 +287,7 @@ h4 {
 
 .bg-dark {
   background-color: #282a35;
+  color: #ffffff;
 }
 
 .bg-grey {
@@ -222,10 +296,20 @@ h4 {
 
 .bg-green {
   background-color: #04aa6d;
+  color: white;
 }
 
 .bg-silver {
   background-color: #e7e9eb;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-pink {
+  background-color: #ffc0c7;
+  color: #282a35;
 }
 
 .svg-container {
@@ -310,7 +394,6 @@ p {
 }
 
 .bg-btn-wrapper {
-  max-width: 1400px;
   margin: 0 auto;
   padding: 2% 3%;
 }
@@ -323,13 +406,32 @@ p {
   border-radius: 5px;
 }
 
+.bg-btn-wrapper-item-sml {
+  padding: 2% 3%;
+  height: auto;
+  width: 99%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 .bg-btn-header {
   color: #282a35;
   font-size: 1.875rem;
   font-weight: 600;
   margin: 10px 0;
+  padding: 2.25rem 1.5rem;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 990px) {
+  .med {
+    width: 44.9%;
+  }
+
+  .smaller_btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .school-space {
   background: #282a35 url(https://www.w3schools.com/spaces/files/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg) no-repeat fixed center;
 }
@@ -483,6 +585,38 @@ p {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+
+.stand1 {
+  height: 45px;
+  border-left: 50px solid #282a35;
+}
+
+.computer_stand {
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.stand1 {
+  position: absolute;
+  top: -15px;
+}
+
+.stand2 {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #282a35;
+  color: #fff;
+  padding: 16px 0px;
+  border-radius: 25px;
+}
+
+.stand2 a {
+  color: #ffffff;
+  font: 1.1rem;
+  font-weight: 800;
 }
 
 body {

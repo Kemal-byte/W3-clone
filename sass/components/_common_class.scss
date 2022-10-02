@@ -7,7 +7,8 @@
   margin: 1rem auto;
   max-width: 200px;
   border-radius: 100px;
-  border: 1px solid black;
+  font-weight: 500;
+  // border: 1px solid black;
 }
 .btn-code-editor {
   display: block;
@@ -31,13 +32,22 @@ h4 {
 }
 .bg-dark {
   background-color: $dark;
+  color: $white;
 }
 .bg-grey {
   background-color: $light-grey;
 }
 .bg-green {
   background-color: $green;
+  color: white;
 }
 .bg-silver {
   background-color: $silver;
+}
+.bg-white {
+  background-color: $white;
+}
+.bg-pink {
+  background-color: $pink;
+  color: $dark;
 }

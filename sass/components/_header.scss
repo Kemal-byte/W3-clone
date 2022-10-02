@@ -3,4 +3,43 @@
 header {
   background-color: $dark;
   color: $white;
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header {
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 21px;
+    color: $pink;
+  }
+}
+header {
+  form {
+    input {
+      padding: 10px 10px 10px 16px;
+      border: none;
+      font-size: 16px;
+      line-height: 1.5;
+      border: 1px solid $dark;
+      border-radius: 25px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    p {
+      border-radius: 25px;
+      padding: 10px;
+      display: inline-block;
+      border: none;
+      position: relative;
+      left: -5px;
+      border: 1px solid $dark;
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
 }
