@@ -424,7 +424,7 @@ p {
 
 @media only screen and (min-width: 600px) and (max-width: 990px) {
   .med {
-    width: 44.9%;
+    min-width: 49.9%;
   }
 
   .smaller_btns {
