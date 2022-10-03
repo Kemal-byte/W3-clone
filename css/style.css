@@ -135,6 +135,10 @@ header form p {
   color: #ffffff;
 }
 
+.container-editor {
+  margin: 0 auto;
+}
+
 .code-editor-header {
   font-size: 4.063rem;
   font-weight: bold;
@@ -224,15 +228,26 @@ header form p {
 footer {
   padding: 32px 16px;
 }
+footer .part3 p {
+  font-size: 15px !important;
+}
 
 .part1 {
   padding: 0.01em 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .part1-btns {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.part3 {
+  font-size: 15px;
 }
 
 .ftr-btn {
@@ -242,12 +257,32 @@ footer {
   color: #282a35;
   margin: 0 0 16px;
   border-radius: 5px;
+  width: 100%;
+}
+
+.part1-btns > .ftr-btn {
+  max-width: 300px;
 }
 
 .btn-inline {
   display: inline-block;
+  max-width: 30%;
 }
 
+@media screen and (min-width: 990px) {
+  .part1-btns {
+    display: block;
+  }
+
+  .btn-inline {
+    width: 10%;
+  }
+
+  .ftr-btn {
+    width: 10%;
+    display: inline-block;
+  }
+}
 .text-center {
   text-align: center !important;
 }
@@ -388,6 +423,25 @@ p {
   background-color: #e7e9eb;
 }
 
+.smaller_btns {
+  margin: 0 auto;
+}
+
+.others-container {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 990px) {
+  .box-halve {
+    width: 49%;
+  }
+
+  .others-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .bg-btn {
   background-color: #282a35 !important;
   padding-bottom: 4rem;
@@ -432,6 +486,24 @@ p {
     flex-wrap: wrap;
   }
 }
+@media only screen and (min-width: 990px) {
+  .big {
+    width: 24.99%;
+  }
+
+  .halve {
+    width: 49.99%;
+  }
+
+  .bg-btn-top {
+    display: flex;
+  }
+
+  .smaller_btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .school-space {
   background: #282a35 url(https://www.w3schools.com/spaces/files/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg) no-repeat fixed center;
 }
@@ -443,6 +515,15 @@ p {
   padding: 5.313rem 1.25rem;
 }
 
+.school-img {
+  display: none;
+}
+
+@media screen and (min-width: 990px) {
+  .school-img {
+    display: block;
+  }
+}
 .colorPicker {
   padding-top: 78px;
   padding-bottom: 95px;
@@ -493,6 +574,17 @@ p {
   font-weight: 700;
 }
 
+@media screen and (min-width: 600px) {
+  .btn-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .rectangle {
+    width: 46%;
+  }
+}
 .webTemplates {
   padding: 64px 24px 90px 24px;
 }
@@ -502,16 +594,33 @@ p {
 }
 
 .webTemp-btn {
-  margin: 8px auto;
-  padding: 8px auto;
   display: block;
+  margin: 8px auto;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
   border-radius: 100px;
 }
 
+.web_link_container {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .web_link_container {
+    width: 50%;
+  }
+}
 .kickstart {
   background: #282a35;
   padding: 0 60px 50px 60px;
   color: #ffc0c7;
+  position: relative;
+}
+.kickstart div a {
+  border-radius: 50px;
+  font-size: 18px;
+  background-color: #04aa6d;
+  padding: 17px 55px;
 }
 
 #kickstart-dip h2 {
@@ -535,11 +644,34 @@ p {
   margin: 16px auto !important;
 }
 
+#w3_cert_badge {
+  position: absolute;
+  right: 5%;
+  width: 220px;
+  transform: rotate(10deg);
+  bottom: -15%;
+}
+
+#kick-start-btn {
+  display: block;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #w3_cert_badge {
+    top: -35px;
+    right: 10px;
+    width: 100px;
+  }
+}
 .howTo {
   padding: 85px 24px 90px 24px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 15px;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 #howToId h2 {
@@ -619,6 +751,11 @@ p {
   font-weight: 800;
 }
 
+@media screen and (min-width: 600px) {
+  .stand2 {
+    width: 50%;
+  }
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.5;

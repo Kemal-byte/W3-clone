@@ -16,3 +16,13 @@
   margin: 20px auto;
   font-weight: 700;
 }
+@media screen and (min-width: 600px) {
+  .btn-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .rectangle {
+    width: 46%;
+  }
+}

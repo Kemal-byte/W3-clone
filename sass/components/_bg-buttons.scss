@@ -39,3 +39,20 @@
     // this needs work
   }
 }
+@media only screen and (min-width: 990px) {
+  .big {
+    width: 24.99%;
+  }
+  .halve {
+    width: 49.99%;
+  }
+  .bg-btn-top {
+    display: flex;
+  }
+  .smaller_btns {
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    // this needs work
+  }
+}

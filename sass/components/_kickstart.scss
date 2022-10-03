@@ -2,6 +2,15 @@
   background: $dark;
   padding: 0 60px 50px 60px;
   color: $pink;
+  position: relative;
+  div {
+    a {
+      border-radius: 50px;
+      font-size: 18px;
+      background-color: #04aa6d;
+      padding: 17px 55px;
+    }
+  }
 }
 
 #kickstart-dip h2 {
@@ -20,4 +29,23 @@
 #kickstart-dip p a {
   width: 100% !important;
   margin: 16px auto !important;
+}
+#w3_cert_badge {
+  position: absolute;
+  right: 5%;
+  width: 220px;
+  transform: rotate(10deg);
+  bottom: -15%;
+}
+#kick-start-btn {
+  display: block;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #w3_cert_badge {
+    top: -35px;
+    right: 10px;
+    width: 100px;
+  }
 }

@@ -39,3 +39,19 @@
 .box-wrapper-boot {
   background-color: $silver;
 }
+.smaller_btns {
+  margin: 0 auto;
+}
+.others-container {
+  margin: 0 auto;
+}
+@media screen and (min-width: 990px) {
+  .box-halve {
+    width: 49%;
+  }
+  .others-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
