@@ -71,8 +71,19 @@
 .container-editor {
   padding: 0.5rem 1rem;
 }
+
 .code-btn {
-  display: flex;
   color: black;
-  flex-direction: column;
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: start;
+  border-radius: 3px;
+  font-weight: 600;
+}
+@media screen and (min-width: 600px) {
+  .code-btn {
+    display: inline-block;
+    width: auto;
+  }
 }
