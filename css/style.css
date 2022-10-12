@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -76,6 +77,18 @@ h4 {
 .bg-pink {
   background-color: #ffc0c7;
   color: #282a35;
+}
+
+.p-3 {
+  padding: 3%;
+}
+
+.p-2 {
+  padding: 2%;
+}
+
+.p-1 {
+  padding: 1%;
 }
 
 nav {
@@ -347,12 +360,29 @@ h4 {
   color: #282a35;
 }
 
+.p-3 {
+  padding: 3%;
+}
+
+.p-2 {
+  padding: 2%;
+}
+
+.p-1 {
+  padding: 1%;
+}
+
 .svg-container {
   position: relative;
 }
 
 .main-item {
   padding: 2rem 0;
+}
+
+.main-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -373,6 +403,30 @@ p {
   margin-bottom: 1.2em;
 }
 
+.main-item-half {
+  width: 49%;
+}
+
+.code-container {
+  padding: 1rem;
+  text-align: start;
+  font-family: "Roboto Mono", monospace;
+}
+
+.border-green {
+  border-left: 4px solid #04aa6d;
+}
+
+@media screen and (max-width: 600px) {
+  .code-snippet {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-item-half {
+    width: 100%;
+  }
+}
 .others {
   background-color: #282a35;
   padding: 4rem 0;
