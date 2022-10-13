@@ -2,15 +2,55 @@
 @import "common_class";
 
 nav {
-  padding: 0.6em 1em;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.left {
-  gap: 1em;
+.drop-down-menu {
+  padding: 24px 16px;
+  font-weight: 900;
+  &:hover {
+    background-color: $green;
+    color: $white;
+  }
+}
+.icon {
+  padding: 11px;
 }
 .right {
-  //   justify-items: flex-end;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-right: 10px;
+  // display: none;
+}
+.border-none {
+  border: none;
+}
+
+.btn-display-955 {
+  display: none;
+}
+.drop-visible {
+  display: none;
+}
+@media screen and (min-width: 860px) {
+  .drop-visible {
+    display: block;
+  }
+}
+@media screen and (max-width: 955px) {
+  // .btn-display-955 {
+  //   display: block;
+  // }
+  .login .btn {
+    display: none;
+  }
 }
