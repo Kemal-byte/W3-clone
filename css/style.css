@@ -834,6 +834,19 @@ p {
   margin-bottom: 10px;
 }
 
+.gif-url {
+  width: 80%;
+  text-align: start;
+}
+.gif-url input {
+  background-color: #fff;
+  width: 100%;
+}
+.gif-url .how-to-url {
+  padding: 2px;
+  border-radius: 2px;
+}
+
 .slide-box {
   background-color: #e7e9eb;
   position: relative;
