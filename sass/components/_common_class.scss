@@ -51,6 +51,9 @@ h4 {
   background-color: $pink;
   color: $dark;
 }
+.bg-olive {
+  background-color: $olive;
+}
 
 // paddings
 .p-3 {
@@ -61,4 +64,7 @@ h4 {
 }
 .p-1 {
   padding: 1%;
+}
+.m-a {
+  margin: 0 auto;
 }

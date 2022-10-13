@@ -79,6 +79,10 @@ h4 {
   color: #282a35;
 }
 
+.bg-olive {
+  background-color: #d9eee1;
+}
+
 .p-3 {
   padding: 3%;
 }
@@ -89,6 +93,10 @@ h4 {
 
 .p-1 {
   padding: 1%;
+}
+
+.m-a {
+  margin: 0 auto;
 }
 
 nav {
@@ -109,7 +117,9 @@ header {
   padding: 90px 0px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 30px;
+  flex-wrap: nowrap;
 }
 
 header h1 {
@@ -120,29 +130,37 @@ header h3 {
   color: #ffc0c7;
 }
 
-header form input {
-  padding: 10px 10px 10px 16px;
-  border: none;
-  font-size: 16px;
-  line-height: 1.5;
-  border: 1px solid #282a35;
-  border-radius: 25px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-header form p {
-  border-radius: 25px;
-  padding: 10px;
-  display: inline-block;
-  border: none;
-  position: relative;
-  left: -5px;
-  border: 1px solid #282a35;
-  border-left: none;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+form {
+  width: 500px;
 }
 
+input,
+p {
+  display: inline-block;
+  border-radius: 25px;
+}
+
+input {
+  border: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 17px;
+  padding: 12px;
+}
+
+p {
+  position: relative;
+  left: -4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    max-width: 500px;
+  }
+}
 .code-editor {
   padding: 1.875rem 0.188rem 5.313rem 0.188rem;
   color: #ffffff;
@@ -370,6 +388,10 @@ h4 {
   color: #282a35;
 }
 
+.bg-olive {
+  background-color: #d9eee1;
+}
+
 .p-3 {
   padding: 3%;
 }
@@ -380,6 +402,10 @@ h4 {
 
 .p-1 {
   padding: 1%;
+}
+
+.m-a {
+  margin: 0 auto;
 }
 
 .svg-container {
