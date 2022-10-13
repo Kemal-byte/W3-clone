@@ -1,14 +1,7 @@
-const arrow = document.getElementById("next");
-const images = document.getElementsByClassName("slides");
-// images[0].style.display = "block";
-console.log(images);
+const buttons = document.querySelectorAll("[data-caraousel-button");
 
-window.onload = () => {
-  images[0].style.display = "block";
-};
-
-nextSlide = (x) => {
-  addEventListener("click", () => {
-    //TODO: add an event listener for changing slides.
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log(`somehtihng is clicked.`);
   });
-};
+});

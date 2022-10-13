@@ -857,13 +857,30 @@ p {
   width: 100% !important;
 }
 
-.next {
+.slides {
+  display: none;
+}
+
+.slides[data-active] {
+  display: block;
+}
+
+.caraousel-btn {
   position: absolute;
   padding: 5px;
   background-color: rgba(40, 42, 53, 0.9);
   top: 50%;
-  right: 0;
+  z-index: 2;
+  cursor: pointer;
   transform: translateY(-50%);
+}
+
+.next {
+  right: 0;
+}
+
+.back {
+  left: 0;
 }
 
 .dot {
